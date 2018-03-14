@@ -40,6 +40,8 @@ We have divided our website into many sections so every team member can do his s
 
 
 
+
+
 #### The following points summarize the user story: ####
  _As a client_
 * I want to be able to visit the website easily and reach the developers.
