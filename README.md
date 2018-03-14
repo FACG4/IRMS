@@ -40,8 +40,10 @@ We have divided our website into many sections so every team member can do his s
 
 
 
+
+
 #### The following points summarize the user story: ####
-_ As a client _
+ _As a client_
 * I want to be able to visit the website easily and reach the developers.
 * I want to be able to know what are the services that the team can offer.
 * I want to navigate through the website easily.
@@ -49,8 +51,8 @@ _ As a client _
 * I want to be able to browse the website from any device, such as tablet or mobile.
 * I want to be able to browse the website easily. All text and images should be clear and big enough to see and understand without any problems.
 
-_ As blind client _
+_As blind client_
 *  I want to be able to browse the website easily and understand the content clearly
 
-_ As a client with JavaScript disabled in their browser _
+_As a client with JavaScript disabled in their browser_
 * I want to be able to visit the site and get a similar experience to viewing the site on a modern browser with JavaScript enabled.
