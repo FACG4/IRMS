@@ -1,3 +1,4 @@
+
 /* this is Contact Section And footer*/
 *{
   padding: 0;
@@ -73,5 +74,46 @@ font-size: 20px;
 
 .fa{
   margin: 0 20px;
+
+}
+
+
+/* Team images alignment */
+.team {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.photo img{
+  height: auto;
+  padding:0 25px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+
 }
 /* this is the end of the Contant and footer*/
