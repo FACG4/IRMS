@@ -5,41 +5,23 @@
     <title>
 
     </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-<header>
-
-  <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">About us</a>
-
-    <a href="#news">Our team</a>
-    <a style="float:right" href="#contact">Contact us</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-  </div>
-
-  <div class="w3-center">
-  <img id="s" src="images/S.jpg" alt ="This is image!" class="responsive">
-
-  </div>
-
-</header>
-
-
-
-
-
+ <!--this is the starting of the Contant and footer-->
 <section class="contact">
+  <div class="parentcontainer">
+      <h1 id="contacttxt">Contact Us</h1>
   <div class="container">
-<form class="" action="index.html" method="post">
+
+<form class="contactform" action="index.html" method="post">
   <label for="firstname">First Name</label>
-  <span class="fa fa-enveloe"></span>
   <input type="text" id="firstname" placeholder="Your Name here ...">
 <label for="lastname">Last Name</label>
 <input type="text" id="lastname" placeholder="Your Last Name Here ...">
-<label for="country">country</label>
+<label for="country">Country</label>
 <select id="country">
   <option value="AF">Afghanistan</option>
 	<option value="AX">Åland Islands</option>
@@ -292,23 +274,32 @@
 	<option value="ZW">Zimbabwe</option>
 </select>
 <label for="subject">Subject</label>
-<textarea id="textarea" rows="6"></textarea>
-<input type="submit" id="submit" >
+<textarea id="textarea" rows="6" placeholder="Your Message Here ..."></textarea>
+<div id="subdiv">
+<button type="button" id="button">Submit</button>
+</div>
+
 </form>
   </div>
+  </div>
 </section>
+<footer>
+<div class="footer">
+
+<br>
+  <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+          <a href="#"><i class="fa fa-rss fa-2x"></i></a>
+<br>
+<br>
+    <h1>© 2018 IRMS ALL RIGHTS RESERVED</h1>
+</div>
+
+</footer>
+ <!--this is the end of the Contant and footer-->
 
 
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
   </body>
 
 </html>
