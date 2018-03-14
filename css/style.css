@@ -20,21 +20,53 @@
 }
 
 .photo img{
+
   height: auto;
   padding:0 25px;
   border-radius: 50%;
   margin: 5px;
 }
 
-.overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+/*
+.imageContainer{
+  position: relative;
+  cursor: pointer;
+
+} */
+
+.imageContainer p{
+  padding: 7px 0
 }
+
+.fa-facebook{
+  color: #4267b2;
+}
+
+.fa-twitter{
+  color: #2aa9e0;
+}
+
+@media screen and (max-width: ) {
+
+}
+
+
+/* .imageContainer:hover .overlay{
+  height: 150px;
+  margin-left: 30px;
+  zoom:1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+} */
+
+/* .overlay{
+  width: 150px;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(103, 58, 183, 0.71);
+  position: absolute;
+  bottom: 0;
+  margin: 8px;
+  overflow: hidden;
+  transition: opacity 1s ease;
+} */
