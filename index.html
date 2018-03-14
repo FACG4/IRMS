@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>
-
+IRMS
     </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -29,10 +29,9 @@
         <a href="#home" class="active">Home</a>
         <a href="#about">About us</a>
 
-        <a href="team">Our team</a>
+        <a href="#team">Our team</a>
         <a href="#contact">Contact us</a>
         <a class="logo" style="float:right" href="#">I <span class="log">R</span> M <span class="log">S</span></a>
-
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
     </div>
@@ -53,25 +52,21 @@
 
   </section>
 
-  <hr>
 
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
 
 
 <!--  -->
 
 
 <!-- Team Section -->
-<section class="team">
+
+
+<section class="teamm" id="team">
+  <div class="team">
+  <h1 >OUR TEAM</h1>
+</div>
+
+
   <div class="photo">
 
 
@@ -156,7 +151,7 @@
 
 
  <!--this is the starting of the Contant and footer-->
-<section class="contact">
+<section class="contact" id="contact">
   <div class="parentcontainer">
       <h1 id="contacttxt">Contact Us</h1>
   <div class="container">
@@ -418,7 +413,7 @@
 	<option value="ZM">Zambia</option>
 	<option value="ZW">Zimbabwe</option>
 </select>
-<label for="subject">Subject</label>
+<label for="textarea">Subject</label>
 <textarea id="textarea" rows="6" placeholder="Your Message Here ..."></textarea>
 <div id="subdiv">
 <button type="button" id="button">Submit</button>
@@ -428,23 +423,34 @@
   </div>
   </div>
 </section>
+
 <footer>
 <div class="footer">
 
 <br>
-          <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-          <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-          <a href="#"><i class="fa fa-rss fa-2x"></i></a>
-          <a href="#"><i class="fa fa-rss fa-2x"></i></a>
+<a href="#"><i class="footerfa fab fa-facebook fa-2x"></i></a>
+<a href="#"><i class="footerfa fab fa-twitter fa-2x"></i></a>
+<a href="#"><i class="footerfa fab fa-instagram fa-2x"></i></a>
+<a href="#"><i class="footerfa fab fa-google-plus fa-2x"></i></a>/a>
 <br>
 <br>
-    <h1>© 2018 IRMS ALL RIGHTS RESERVED</h1>
+    <h1 >© 2018 IRMS ALL RIGHTS RESERVED</h1>
 </div>
 
 </footer>
  <!--this is the end of the Contant and footer-->
 
 
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
   </body>
 
 </html>
