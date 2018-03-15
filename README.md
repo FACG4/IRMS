@@ -4,8 +4,9 @@
 </br>
 
 #### IRMS ####
+[IRMS WEBSITE](https://facg4.github.io/IRMS/)
 
-By: Inas-Ramy-Mohemed-Sallam
+By: Inass-Ramy-Mohammed-Sallam
 
 <br/>
 
@@ -14,7 +15,7 @@ By: Inas-Ramy-Mohemed-Sallam
 
 
 
-#### WHY ####
+#### Why ####
 A Team portfolio website allows us to present our work in a much more dynamic fashion than a traditional printed portfolio, while also reaching a wider customers.
 , highlight our best work and display accomplishments, skills and potential. It allows all the clients to reach out our team.
 
